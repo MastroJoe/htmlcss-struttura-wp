@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 1000px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class^="col-"] {
+  float: left;
+}
+
+.col_100 {
+  width: 100%;
+  height: 100px;
+}
+
+.bg_pink {
+  background-color: pink;
+}
