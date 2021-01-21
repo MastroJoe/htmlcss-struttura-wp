@@ -19,8 +19,9 @@ body {
 }
 
 .col_100 {
-  width: 80%;
+  width: 90%;
   height: 100px;
+  margin-top: 2%;
 }
 
 .bg_pink {
@@ -28,10 +29,36 @@ body {
 }
 
 .col_400 {
-  width: 80%;
+  width: 90%;
   height: 400px;
+  margin-top: 2%;
 }
 
 .bg_yellow {
   background-color: yellow;
+}
+
+.col_450 {
+  width: 90%;
+  height: 450px;
+  margin-top: 2%;
+}
+
+.bg_blue {
+  background-color: blue;
+}
+
+.col_50 {
+  width: 90%;
+  height: 50px;
+}
+
+.bg_lightblue {
+  background-color: lightblue;
+}
+
+.col_25 {
+  width: 25%;
+  height: 400px;
+  margin-top: 2%;
 }
