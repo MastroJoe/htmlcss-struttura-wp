@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -18,10 +19,19 @@ body {
 }
 
 .col_100 {
-  width: 100%;
+  width: 80%;
   height: 100px;
 }
 
 .bg_pink {
   background-color: pink;
+}
+
+.col_400 {
+  width: 80%;
+  height: 400px;
+}
+
+.bg_yellow {
+  background-color: yellow;
 }
