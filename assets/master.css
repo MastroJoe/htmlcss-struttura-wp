@@ -44,7 +44,7 @@ body {
   margin-top: 2%;
 }
 
-.bg_blue {
+.bg_lightblue {
   background-color: blue;
 }
 
@@ -53,7 +53,7 @@ body {
   height: 50px;
 }
 
-.bg_lightblue {
+.bg_cyan {
   background-color: lightblue;
 }
 
