@@ -8,6 +8,11 @@ body {
   height: 1000px;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+  }
+
 .row:after {
   content: "";
   clear: both;
@@ -16,10 +21,11 @@ body {
 
 [class^="col_"] {
   float: left;
+  padding: 0 15px;
 }
 
 .col_100 {
-  width: 90%;
+  width: 100%;
   height: 100px;
   margin-top: 2%;
 }
@@ -29,7 +35,7 @@ body {
 }
 
 .col_400 {
-  width: 90%;
+  width: 100%;
   height: 400px;
   margin-top: 2%;
 }
@@ -39,7 +45,7 @@ body {
 }
 
 .col_450 {
-  width: 90%;
+  width: 100%;
   height: 450px;
   margin-top: 2%;
 }
