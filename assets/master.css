@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 1000px;
-}
-
 .container {
   width: 80%;
   margin: auto;
@@ -30,7 +26,7 @@ body {
 
 .col_100 {
   width: 100%;
-  height: 100px;
+  height: 60px;
   margin-top: 2%;
 }
 
@@ -40,7 +36,7 @@ body {
 
 .col_350 {
   width: 100%;
-  height: 350px;
+  height: 300px;
   margin-top: 2%;
 }
 
@@ -50,7 +46,7 @@ body {
 
 .col_450 {
   width: 100%;
-  height: 450px;
+  height: 400px;
   margin-top: 2%;
 }
 
@@ -69,22 +65,23 @@ body {
 
 .col_25 {
   width: 25%;
-  height: 350px;
+  height: 315px;
   margin-top: 2%;
   display: inline-block;
 }
 
 .col_75 {
   width: 50%;
-  height:350px;
+  height:315px;
   margin-top: 2%;
   display: inline-block;
 }
 
 .col_40 {
 width: 100%;
-height: 40px;
+height: 30px;
 margin-top: 1%;
+margin-bottom: 1%;
 }
 
 .bg_purple {
