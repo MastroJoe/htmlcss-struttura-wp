@@ -8,13 +8,13 @@ body {
   height: 1000px;
 }
 
-.row::after {
+.row:after {
   content: "";
   clear: both;
   display: table;
 }
 
-[class^="col-"] {
+[class^="col_"] {
   float: left;
 }
 
