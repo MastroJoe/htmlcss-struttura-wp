@@ -17,11 +17,7 @@
 
 [class^="col_"] {
   float: left;
-  padding: 0 15px;
-}
-
-.row {
-  margin: 0 -15px;
+  /* padding: 0 15px; */
 }
 
 .col_100 {
@@ -46,7 +42,7 @@
 
 .col_450 {
   width: 100%;
-  height: 420px;
+  height: 425px;
   margin-top: 2%;
 }
 
@@ -64,7 +60,7 @@
 }
 
 .col_25 {
-  width: 25%;
+  width: 24%;
   height: 315px;
   margin-top: 2%;
   display: inline-block;
@@ -86,4 +82,12 @@ margin-bottom: 1%;
 
 .bg_purple {
   background-color: purple;
+}
+
+.marg_r {
+  margin-right: 16px;
+}
+
+.marg_l {
+  margin-left: 16px;
 }
