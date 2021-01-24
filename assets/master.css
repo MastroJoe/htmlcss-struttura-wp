@@ -1,18 +1,23 @@
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
 }
 
-.container {
+/* .container {
   width: 80%;
   margin: auto;
-  }
+  } */
 
 .row:after {
   content: "";
   clear: both;
   display: table;
+}
+
+.row {
+ margin: 0 auto;
+ width: 90%;
 }
 
 [class^="col_"] {
@@ -22,22 +27,24 @@
 
 .col_100 {
   width: 100%;
-  height: 60px;
-  margin-top: 2%;
+  margin: 0 auto;
 }
 
 .bg_pink {
   background-color: pink;
+  height: 80px;
 }
 
-.col_350 {
-  width: 100%;
-  height: 300px;
-  margin-top: 2%;
+.col_20 {
+  width: 20%;
+  height: 400px;
+  margin: 20px 0;
 }
 
 .bg_yellow {
   background-color: yellow;
+  height: 400px;
+  margin-top: 20px;
 }
 
 .col_450 {
