@@ -55,13 +55,19 @@
   margin: 20px 0;
 }
 
-.col-60{
+.col_60{
   width: 58%;
   margin:20px 1%;
   height:400px;
 }
 
+.marg_top {
+  height: 80px;
+  margin-top: 20px;
+}
 
 .bg_purple {
   background-color: purple;
+  height: 80px;
+  margin-top: 20px;
 }
